@@ -19,3 +19,8 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
+- task: netsparker-cloud@1
+  inputs:
+    apiConnection: 'Invicti Connection'
+    scanTypes: '1'
+    scanWebSites: '790e9168-da43-41a7-0eda-affc014f46ef'
