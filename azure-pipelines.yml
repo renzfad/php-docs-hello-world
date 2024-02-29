@@ -1,10 +1,5 @@
 # Starter pipeline
-- task: netsparker-cloud@1
-  inputs:
-    apiConnection: 'Invicti Connection'
-    scanTypes: '2'
-    scanWebSites: '947a4906-07f1-4a6f-9a30-b00c02b684e5'
-    scanWebSitesProfile: '03dfcd85-818b-4a36-93a4-b00c02b9203a'
+
 
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
